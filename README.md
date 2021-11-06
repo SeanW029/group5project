@@ -1,5 +1,5 @@
 
-# Final Project group 5
+# Final Project Group 5
  ### Members (roles)
 **Asmaa Ahmed** (triangle)
 **Chayda Adora** (circle)
