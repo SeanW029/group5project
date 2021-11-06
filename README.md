@@ -33,8 +33,8 @@ Publication - House Prices - Advanced Regression Techniques | Kaggle
 
   
  ## Description of the communication protocols:
-Slack Project Group Channel
-Group zoom meetings on a weekly basis outside of class time
+* Slack Project Group Channel
+* Group zoom meetings on a weekly basis outside of class time
 
 ## The deliverables for this project are: (Questions):
 Question 1
