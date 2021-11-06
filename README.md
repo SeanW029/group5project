@@ -41,7 +41,7 @@ Question 1
 Question 2 
 Question 3
 
-### Software
+### Software:
 Python, Pandas, Jupyter Notebook, PostgreSQL, Tableau and Supervised Machine Learning.
 
 ### Questions that will be answered with the data:
