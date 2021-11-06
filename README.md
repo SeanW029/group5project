@@ -14,15 +14,15 @@ This project’s objective is to analyze the housing market sector in King Count
 There was a mutual interest within the group to work with a model that could predict results based on previous data. The housing market sector offers a variety of data where advanced regression techniques can be applied.
  
 ### Data Source
-Name: House Prices
-Origin: Kaggle – Ames Housing dataset (kc_house_data.csv)
-Publication: House Prices - Advanced Regression Techniques | Kaggle
+Name: House Prices  
+Origin: Kaggle – Ames Housing dataset (kc_house_data.csv)  
+Publication: House Prices - Advanced Regression Techniques | Kaggle  
  
 
 ## Github repository name: group5project
 * Group5project
 * Group5project_Asmaa
-* Group5project_chayda
+* Group5project_Chayda
 * Group5project_Leo
 * Group5project_Saber
 * Group5project_Xiao
