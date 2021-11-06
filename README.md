@@ -53,7 +53,7 @@ Python, Pandas, Jupyter Notebook, PostgreSQL, Tableau and Supervised Machine Lea
 - Location and price
 
 #### Database ERD
-*created with QuickDBD:  
+* created with QuickDBD:  
 
 <img width="700" alt="HouseDB" src="https://user-images.githubusercontent.com/74624855/140617928-8aa42ef1-ea51-4219-99d0-5f1d4ba4158e.png">
 
