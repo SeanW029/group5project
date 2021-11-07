@@ -1,5 +1,5 @@
 -- Create table House_Data with all columns
-CREATE TABLE House_Data2 (
+CREATE TABLE House_Data (
     id_no bigint NOT NULL,
     sold_date date NOT NULL,
     price decimal(10,2) NOT NULL,
@@ -21,5 +21,5 @@ CREATE TABLE House_Data2 (
     long decimal(6,3),
     sqft_living15 int,
     sqft_lot15 int,
-    PRIMARY KEY (id_no) UNIQUE
+    PRIMARY KEY (id_no)
 );
