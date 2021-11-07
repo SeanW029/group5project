@@ -10,6 +10,12 @@
  ## Overview of Project
 This project’s objective is to analyze the housing market sector in King County, USA between May 2014 and May 2015 and create a machine learning model which is able to predict prices and visualizations to provide insights.
  
+ #### Roles
+ **square:** GitHub Repository
+ **triangle:** Machine Learning Model
+ **circle:** Database
+ **x:** Technologies and ETL
+ 
  ### Why Supervised Machine Learning?
 There was a mutual interest within the group to work with a model that could predict results based on previous data. The housing market sector offers a variety of data where advanced regression techniques can be applied.
  
@@ -53,9 +59,10 @@ Python, Pandas, Jupyter Notebook, PostgreSQL, Tableau and Supervised Machine Lea
 - Location and price
 
 #### Database ERD
-* created with QuickDBD:  
+* House Database Flowchart created with QuickDBD:  
+<img width="700" alt="HouseDB" src="https://user-images.githubusercontent.com/74624855/140657072-7a0be1e8-ff96-4023-a333-000dc7d4ba09.png">
 
-<img width="700" alt="HouseDB" src="https://user-images.githubusercontent.com/74624855/140617928-8aa42ef1-ea51-4219-99d0-5f1d4ba4158e.png">
+
 
 ## Results
 ### question 1
