@@ -6,15 +6,15 @@
 **Leonardo Aleixo** (x),
 **Saber Ahsan** (triangle),
 **Xiao Wang** (square)
- 
- ## Overview of Project
-This project’s objective is to analyze the housing market sector in King County, USA between May 2014 and May 2015 and create a machine learning model which is able to predict prices and visualizations to provide insights.
- 
+
  #### Roles
  **square:** GitHub Repository
  **triangle:** Machine Learning Model
  **circle:** Database
  **x:** Technologies and ETL
+
+ ## Overview of Project
+This project’s objective is to analyze the housing market sector in King County, USA between May 2014 and May 2015 and create a machine learning model which is able to predict prices and visualizations to provide insights.
  
  ### Why Supervised Machine Learning?
 There was a mutual interest within the group to work with a model that could predict results based on previous data. The housing market sector offers a variety of data where advanced regression techniques can be applied.
