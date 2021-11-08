@@ -56,8 +56,8 @@ There was a mutual interest within the group to work with a model that could pre
  ### Description of the communication protocols:
  
 * Slack Project Group Channel
-
-* Group zoom meetings on a weekly basis outside of class time
+* Group meetings on Saturdays from 10-12 during office hours
+* Group zoom meetings on a weekly basis outside of class time (times tbd)
 
 
 ### Software:
