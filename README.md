@@ -84,7 +84,8 @@ Python, Pandas, Jupyter Notebook, PostgreSQL, Tableau and Supervised Machine Lea
 * House Database Flowchart created with QuickDBD: As the relationship is one-to-one this database only requires one table.
 <img width="700" alt="HouseDB" src="https://user-images.githubusercontent.com/74624855/140669657-a7e28768-9602-40f7-ae0a-88dc487c5453.png">
 
-
+Database will be hosted in pgAdmin; screenshot of data loaded to House_Data table (from schema.sql):
+<img width="869" alt="DatabaseTable" src="https://user-images.githubusercontent.com/74624855/140669906-1cd5b595-d605-4d84-8777-f1a241526889.png">
 
 
 
