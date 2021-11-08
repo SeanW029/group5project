@@ -81,10 +81,10 @@ Python, Pandas, Jupyter Notebook, PostgreSQL, Tableau and Supervised Machine Lea
 
 ### Database ERD
 
-* House Database Flowchart created with QuickDBD:  
+* House Database Flowchart created with QuickDBD: As the relationship is one-to-one this database only requires one table.
+<img width="700" alt="HouseDB" src="https://user-images.githubusercontent.com/74624855/140669657-a7e28768-9602-40f7-ae0a-88dc487c5453.png">
 
 
-<img width="700" alt="HouseDB" src="https://user-images.githubusercontent.com/74624855/140657072-7a0be1e8-ff96-4023-a333-000dc7d4ba09.png">
 
 
 
