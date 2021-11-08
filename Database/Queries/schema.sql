@@ -1,0 +1,25 @@
+-- Create table House_Data with all columns
+CREATE TABLE House_Data (
+    id_no bigint NOT NULL,
+    closing_date date NOT NULL,
+    price decimal(10,2) NOT NULL,
+    bedrooms int NOT NULL,
+    bathrooms float NOT NULL,
+    home_size int NOT NULL,
+    lot_size int NOT NULL,
+    floors float NOT NULL,
+    waterfront int,
+    view int,
+    condition int,
+    grade int,
+    above_size int,
+    basement_size int,
+    year int NOT NULL,
+    yr_renovated int,
+    zipcode char(5) NOT NULL,
+    lat decimal(6,4),
+    long decimal(6,3),
+    homereno_2015 int,
+    lotreno_2015 int,
+    PRIMARY KEY (id_no)
+);
