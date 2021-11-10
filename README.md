@@ -1,4 +1,3 @@
-
 # Final Project Group 5
 
  ### Members (roles)
@@ -12,15 +11,6 @@
 **Saber Ahsan** (triangle)
 
 **Xiao Wang** (square)
-
- ### Roles
- **square:** GitHub Repository
- 
- **triangle:** Machine Learning Model
- 
- **circle:** Database
- 
- **x:** Technologies and ETL
  
 
  ### Overview of Project
@@ -39,31 +29,17 @@ There was a mutual interest within the group to work with a model that could pre
 
 **Publication:** House Prices - Advanced Regression Techniques | Kaggle  
  
+### Database ERD
 
-### Github repository name: group5project
+* House Database Flowchart created with QuickDBD: As the relationship is one-to-one this database only requires one table.
+<img width="700" alt="HouseDB" src="https://user-images.githubusercontent.com/74624855/140669657-a7e28768-9602-40f7-ae0a-88dc487c5453.png">
 
-* Group5project_Asmaa
+ERD Updated with multiple tables:
+<img width="700" alt="HouseDB_multi_tables" src="https://user-images.githubusercontent.com/74624855/140953000-7f08522d-3999-43de-aa80-415c64f0db73.png">
 
-* Group5project_Chayda
-
-* Group5project_Leo
-
-* Group5project_Saber
+Database will be hosted in pgAdmin; screenshot of data loaded to House_Data table (from schema.sql):
+<img width="869" alt="DatabaseTable" src="https://user-images.githubusercontent.com/74624855/140669906-1cd5b595-d605-4d84-8777-f1a241526889.png">
  
-* Group5project_Xiao
-
-  
- ### Description of the communication protocols:
- 
-* Slack Project Group Channel
-* Group meetings on Saturdays from 10-12 during office hours
-* Group zoom meetings on a weekly basis outside of class time (times tbd)
-
-
-### Software:
-
-Python, Pandas, Jupyter Notebook, PostgreSQL, Tableau and Supervised Machine Learning.
-
 ### Questions that will be answered with the data:
 * Predict housing market price 
 
@@ -79,16 +55,35 @@ Python, Pandas, Jupyter Notebook, PostgreSQL, Tableau and Supervised Machine Lea
 
   - Location and price
 
-### Database ERD
-
-* House Database Flowchart created with QuickDBD: As the relationship is one-to-one this database only requires one table.
-<img width="700" alt="HouseDB" src="https://user-images.githubusercontent.com/74624855/140669657-a7e28768-9602-40f7-ae0a-88dc487c5453.png">
-
-ERD Updated with multiple tables:
-<img width="700" alt="HouseDB_multi_tables" src="https://user-images.githubusercontent.com/74624855/140953000-7f08522d-3999-43de-aa80-415c64f0db73.png">
-
-Database will be hosted in pgAdmin; screenshot of data loaded to House_Data table (from schema.sql):
-<img width="869" alt="DatabaseTable" src="https://user-images.githubusercontent.com/74624855/140669906-1cd5b595-d605-4d84-8777-f1a241526889.png">
 
 
+### Software:
 
+Python, Pandas, Jupyter Notebook, PostgreSQL, Tableau and Supervised Machine Learning.
+
+### Github repository name: group5project
+
+* Group5project_Asmaa
+
+* Group5project_cAdora
+
+* Group5project_Leo
+
+* Group5project_Saber
+ 
+* Group5project_Xiao
+
+ ### Roles
+ **square:** GitHub Repository
+ 
+ **triangle:** Machine Learning Model
+ 
+ **circle:** Database
+ 
+ **x:** Technologies and ETL
+
+ ### Description of the communication protocols:
+ 
+* Slack Project Group Channel
+* Group meetings on Saturdays from 10-12 during office hours
+* Group zoom meetings on a weekly basis outside of class time (times tbd)
