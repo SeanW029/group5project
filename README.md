@@ -31,10 +31,11 @@ There was a mutual interest within the group to work with a model that could pre
  
 ### Database ERD
 
-* House Database Flowchart created with QuickDBD: As the relationship is one-to-one this database only requires one table.
-<img width="700" alt="HouseDB" src="https://user-images.githubusercontent.com/74624855/140669657-a7e28768-9602-40f7-ae0a-88dc487c5453.png">
+* House Database Flowchart created with QuickDBD: Raw Data Table:
+<img width="600" alt="ERD_house_data_raw" src="https://user-images.githubusercontent.com/74624855/141136296-81eed9f1-0df8-429c-9190-bb25a03c2da1.png">
 
-ERD Updated with multiple tables:
+
+Mockup with multiple tables:
 <img width="700" alt="HouseDB_multi_tables" src="https://user-images.githubusercontent.com/74624855/140953000-7f08522d-3999-43de-aa80-415c64f0db73.png">
 
 Database will be hosted in pgAdmin; screenshot of data loaded to House_Data table (from schema.sql):
