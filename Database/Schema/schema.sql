@@ -25,13 +25,10 @@ CREATE TABLE house_data_raw (
 );
 
 
-
-
-
--- Create table house_data 
-CREATE TABLE house_data (
+-- Create table house_data_clean
+CREATE TABLE house_data_clean (
     id_no bigint NOT NULL,
-    closing_date date NOT NULL,
+    close_date date NOT NULL,
     price decimal(10,2) NOT NULL,
     bedrooms int NOT NULL,
     bathrooms float NOT NULL,
@@ -39,36 +36,39 @@ CREATE TABLE house_data (
     views int,
     condition int,
     grade int NOT NULL,
-    year_blt int NOT NULL,
+    yr_built int NOT NULL,
     yr_renovated int,
-    PRIMARY KEY (id_no)
-);
-
--- Create table house_dimensions_sqft 
-CREATE TABLE house_dimensions_sqft (
-    id_no bigint NOT NULL,
     home_size int NOT NULL,
     lot_size int NOT NULL,
     above_size int,
     basement_size int,
-    FOREIGN KEY (id_no) REFERENCES house_data (id_no),
-    PRIMARY KEY (id_no)
-);
-
--- Create table house_location
-CREATE TABLE house_location (
-    id_no bigint NOT NULL,
     waterfront int,
     zipcode char(5) NOT NULL,
     lat decimal(6,4),
     long decimal(6,3),
     homereno_2015 int,
     lotreno_2015 int,
-    FOREIGN KEY (id_no) REFERENCES house_data (id_no),
-    FOREIGN KEY (id_no) REFERENCES house_dimensions_sqft (id_no),
     PRIMARY KEY (id_no)
 );
 
 -- Add constraint to waterfront column; limiting input to '0' or '1'
-ALTER TABLE public.house_location.waterfront
+ALTER TABLE public.house_data_clean.waterfront
     ADD CONSTRAINT waterfront_tf_check CHECK (waterfront = '0' OR waterfront = '1');
+
+-- Create table predictions (from machine learning model)
+CREATE TABLE predictions (
+    id_no bigint NOT NULL,
+    prediction decimal(10,2) NOT NULL,
+    actual_price decimal(10,2) NOT NULL,
+    FOREIGN KEY (id_no) REFERENCES house_data_clean (id_no),
+    FOREIGN KEY (actual_price) REFERENCES house_data_clean (price),
+    PRIMARY KEY (id_no)
+);
+
+-- Create table condition which will have set descriptions linked to database for reference purpose
+CREATE TABLE condition (
+    condition int,
+    description varchar,
+    PRIMARY KEY (condition)
+);
+
