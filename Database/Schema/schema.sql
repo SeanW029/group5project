@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 -- Create table house_data_raw
 CREATE TABLE house_data_raw (
     id bigint NOT NULL,
@@ -28,10 +27,6 @@ CREATE TABLE house_data_raw (
 
 -- Create table house_data_clean
 CREATE TABLE house_data_clean (
-=======
--- Create table house_data 
-CREATE TABLE house_data (
->>>>>>> ecaa5dc164f153ad2e1a7d68dd309785292c6259
     id_no bigint NOT NULL,
     close_date date NOT NULL,
     price decimal(10,2) NOT NULL,
