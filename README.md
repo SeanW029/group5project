@@ -36,9 +36,10 @@ There was a mutual interest within the group to work with a model that could pre
 
 
 Mockup with multiple tables:
-<img width="700" alt="HouseDB_multi_tables" src="https://user-images.githubusercontent.com/74624855/140953000-7f08522d-3999-43de-aa80-415c64f0db73.png">
+<img width="704" alt="ERD_multi_table" src="https://user-images.githubusercontent.com/74624855/141395872-d9aa7343-afe8-4aa5-9471-7353c85b7f10.png">
 
-Database will be hosted in pgAdmin; screenshot of data loaded to House_Data table (from schema.sql):
+
+Database will be hosted in pgAdmin; screenshot of data loaded to house_data_raw table (from schema.sql):
 <img width="869" alt="DatabaseTable" src="https://user-images.githubusercontent.com/74624855/140669906-1cd5b595-d605-4d84-8777-f1a241526889.png">
  
 ### Questions that will be answered with the data:
