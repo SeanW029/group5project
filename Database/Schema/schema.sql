@@ -52,8 +52,10 @@ CREATE TABLE house_data_clean (
 );
 
 -- Add constraint to waterfront column; limiting input to '0' or '1'
-ALTER TABLE public.house_data_clean.waterfront
+ALTER TABLE public.house_data_clean
     ADD CONSTRAINT waterfront_tf_check CHECK (waterfront = '0' OR waterfront = '1');
+COMMENT ON CONSTRAINT waterfront_tf_check ON public.house_data_clean
+    IS 'Inputs limited to ''0'' (not true) and ''1'' (true)';
 
 -- Create table predictions (from machine learning model)
 CREATE TABLE predictions (
