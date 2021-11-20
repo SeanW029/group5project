@@ -74,3 +74,24 @@ CREATE TABLE condition (
     PRIMARY KEY (condition)
 );
 
+-- Create table for Linear Regression predictions
+CREATE TABLE linear_regression (
+    id_no INT NOT NULL,
+    prediction decimal(10,2) NOT NULL,
+    actual decimal(10,2) NOT NULL
+);
+
+
+-- Create table for Regressor Forest predictions
+CREATE TABLE regressor_forest (
+    id_no INT NOT NULL,
+    prediction decimal(10,2) NOT NULL,
+    actual decimal(10,2) NOT NULL
+);
+
+-- Create table for Regressor Tree predictions
+CREATE TABLE regressor_tree (
+    id_no INT NOT NULL,
+    prediction decimal(10,2) NOT NULL,
+    actual decimal(10,2) NOT NULL
+);
