@@ -20,7 +20,11 @@ This project’s objective is to analyze the housing market sector in King Count
  ### Why Supervised Machine Learning?
  
 There was a mutual interest within the group to work with a model that could predict results based on previous data. The housing market sector offers a variety of data where advanced regression techniques can be applied.
- 
+
+#### **OLS Regression Model:**
+<img width="650" alt="OLS_Regression" src="https://user-images.githubusercontent.com/74624855/142733397-d732cada-7610-41e9-a708-692102ae00c8.png">
+
+
 ### Data Source
 
 **Name:** House Prices
@@ -32,16 +36,18 @@ There was a mutual interest within the group to work with a model that could pre
 ### Database ERD
 
 * House Database Flowchart created with QuickDBD: Raw Data Table:
-<img width="600" alt="ERD_house_data_raw" src="https://user-images.githubusercontent.com/74624855/141136296-81eed9f1-0df8-429c-9190-bb25a03c2da1.png">
-
-
-Mockup with multiple tables:
-<img width="704" alt="ERD_multi_table" src="https://user-images.githubusercontent.com/74624855/141395872-d9aa7343-afe8-4aa5-9471-7353c85b7f10.png">
+<img width="440" alt="db_schema" src="https://user-images.githubusercontent.com/74624855/142733369-e9b0ae0c-b39b-4ee8-af5c-173710dbf578.png">
 
 
 Database will be hosted in pgAdmin; screenshot of data loaded to house_data_raw table (from schema.sql):
 <img width="869" alt="DatabaseTable" src="https://user-images.githubusercontent.com/74624855/140669906-1cd5b595-d605-4d84-8777-f1a241526889.png">
- 
+
+#### **Connection String to RDS:**
+<img width="498" alt="Connection_String" src="https://user-images.githubusercontent.com/74624855/142733428-b687af55-4e79-413f-893f-1ebb7bdbf3ce.png">
+Connect cleaned house data to SQL:
+<img width="495" alt="Connection_to_SQL" src="https://user-images.githubusercontent.com/74624855/142733465-7452977a-f4d9-473c-9d1e-397ee2dd1e79.png">
+
+
 ### Questions that will be answered with the data:
 * Predict housing market price 
 
