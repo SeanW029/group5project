@@ -36,7 +36,8 @@ There was a mutual interest within the group to work with a model that could pre
 ### Database ERD
 
 * House Database Flowchart created with QuickDBD: Raw Data Table:
-<img width="800" alt="db_schema" src="https://user-images.githubusercontent.com/74624855/142733369-e9b0ae0c-b39b-4ee8-af5c-173710dbf578.png">
+<img width="800" alt="db_ERD" src="https://user-images.githubusercontent.com/74624855/142735724-a424bf89-dc66-4eb1-8d5a-b0c93c3d71e2.png">
+
 
 
 Database will be hosted in pgAdmin; screenshot of data loaded to house_data_raw table (from schema.sql):
