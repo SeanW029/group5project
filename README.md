@@ -1,6 +1,6 @@
 # Real Estate: Predicting House Prices
 
- ### Members (roles)
+### Members (roles)
  
 **Asmaa Ahmed** (triangle)
 
@@ -13,7 +13,7 @@
 **Xiao Wang** (square)
  
 
- ### Overview of Project
+## Overview of Project
  
 This project’s objective is to analyze the housing market sector in King County, USA between May 2014 and May 2015 and create a machine learning model which is able to predict prices and visualizations to provide insights.
  
@@ -23,7 +23,8 @@ https://docs.google.com/presentation/d/1FSh0O_s-OfNs4f0mQAv_XbYGDBrPot1RKguuH9DE
 ### **Tableau Dashboard Link:**
 https://public.tableau.com/app/profile/leonardo.aleixo/viz/P5_16365969348480/Dashboard4?publish=yes
 
-### Why Supervised Machine Learning?
+
+## Why Supervised Machine Learning?
  
 There was a mutual interest within the group to work with a model that could predict results based on previous data. The housing market sector offers a variety of data where advanced regression techniques can be applied.
 
@@ -56,7 +57,7 @@ There was a mutual interest within the group to work with a model that could pre
   - Location and price
 
 
-### Database ERD
+### **Database ERD**
 
 * House Database Flowchart created with QuickDBD: Raw Data Table:
 <img width="800" alt="ERD_multi_table" src="https://user-images.githubusercontent.com/74624855/142777012-a84373ff-3409-422a-b428-2c4eee77b9ef.png">
@@ -70,7 +71,8 @@ Database is hosted in pgAdmin; screenshot of data loaded to house_data_clean tab
 **Connect cleaned house data to SQL:**
 <img width="800" alt="Connection_to_SQL" src="https://user-images.githubusercontent.com/74624855/142733465-7452977a-f4d9-473c-9d1e-397ee2dd1e79.png">
 
-### Tableau Dashboard
+
+### **Tableau Dashboard**
 <img width="1000" alt="tableau_dashboard" src="https://user-images.githubusercontent.com/74624855/142777860-e0705a04-1a13-4583-99ba-106a286452fb.png">
 
 #### **Market Share by Home Size**
