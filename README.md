@@ -67,7 +67,7 @@ Database will be hosted in pgAdmin; screenshot of data loaded to house_data_clea
 
 #### **Connection String to RDS:**
 <img width="800" alt="Connection_String" src="https://user-images.githubusercontent.com/74624855/142733428-b687af55-4e79-413f-893f-1ebb7bdbf3ce.png">
-Connect cleaned house data to SQL:
+**Connect cleaned house data to SQL:**
 <img width="800" alt="Connection_to_SQL" src="https://user-images.githubusercontent.com/74624855/142733465-7452977a-f4d9-473c-9d1e-397ee2dd1e79.png">
 
 
