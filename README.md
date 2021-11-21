@@ -17,7 +17,13 @@
  
 This project’s objective is to analyze the housing market sector in King County, USA between May 2014 and May 2015 and create a machine learning model which is able to predict prices and visualizations to provide insights.
  
- ### Why Supervised Machine Learning?
+### **Project Presentation Link (Google Slides):**
+https://docs.google.com/presentation/d/1FSh0O_s-OfNs4f0mQAv_XbYGDBrPot1RKguuH9DE7T0/edit#slide=id.g10352e16c5d_0_65
+
+### **Tableau Dashboard Link:**
+https://public.tableau.com/app/profile/leonardo.aleixo/viz/P5_16365969348480/Dashboard4?publish=yes
+
+### Why Supervised Machine Learning?
  
 There was a mutual interest within the group to work with a model that could predict results based on previous data. The housing market sector offers a variety of data where advanced regression techniques can be applied.
 
