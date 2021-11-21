@@ -74,7 +74,7 @@ Connect cleaned house data to SQL:
 
 ### Software/Tools:
 
-Python, Pandas, Jupyter Notebook, PostgreSQL, Tableau, Supervised Machine Learning, SQLAlchemy
+Python, Pandas, Google Colab, PostgreSQL, Tableau, Supervised Machine Learning, SQLAlchemy
 
 ### Github repository name: group5project
 
