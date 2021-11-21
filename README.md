@@ -1,4 +1,4 @@
-# Final Project Group 5
+# Real Estate: Predicting House Prices
 
  ### Members (roles)
  
