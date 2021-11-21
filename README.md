@@ -56,13 +56,47 @@ There was a mutual interest within the group to work with a model that could pre
 
   - Location and price
 
+## **Machine Learning**
+**Description of data preprocessing:**
+In this project, we examined the quality of the raw data, the following steps has been achieved prior to feeding the data into the model:
+·       overview of the dataset
+·       Handling Null Values
+·       Handling missing values & duplicate rows
+·       Standardization of the numerical data while handling Categorical Variables
+
+Importing the necessary libraries, including the following:
+Pandas_ For handling structured data
+Scikit Learn_ For machine learning
+NumPy_ For linear algebra and mathematics
+Seaborn_ For data visualization
+Standard Scaler-For scaling and normalizing numerical data
+
+
+For the preliminary features, all available features were used that might affect the model including the date, number of bedrooms, bathrooms, floors, etc. An additional feature was added to include the month and the year to see if this would improve the model. The id column was dropped as it affects the model accuracy since it shows a high predictive value while trying to predict the price.
+
+Data was split into training and tests sets as follows:
+**Training:** The training data consists of 21436 examples of houses with 21 features describing different aspects of the house. The training data is what is used to “teach” the models.
+**Testing:** The test data set consists of 21436 examples with the same number of features as the training data. The test data set excludes the **sale price** because this is the dependent value (what we are trying to predict).
+
+The Supervised Machine Learning model was chosen because the target outcome is already known (house price).Three different models were run and compared against each other for the accuracy outcome: Linear Regression, Decision Tree, and Random Forest.
+
+**Linear Regression** returned an accuracy score of 0.68.
+**Decision Tree** returned accuracy score of 0.73.
+**Random Forest** returned accuracy score of 0.86.
+
+One of the limitations  encountered with Random Forest is getting a score of 0.53 when using only the following parameters (max_dept & Random state); however, after adding the n_estimator parameter the model score significantly increased to 0.86. With n_estimators of 100 and a cv=2, the runtime for the model was 32 minutes.
+
 
 ### **Database ERD**
 
 * House Database Flowchart created with QuickDBD: Raw Data Table:
 <img width="800" alt="ERD_multi_table" src="https://user-images.githubusercontent.com/74624855/142777012-a84373ff-3409-422a-b428-2c4eee77b9ef.png">
 
-The dataset for this project is simple; it was not necessary to design the database with multiple tables. A table "condition" was created to link the descriptive values for the condition column and connected to the main table as a foreign key.
+The dataset for this project is simple; it was not necessary to design the database with multiple tables. A table "condition" was created to link the descriptive values for the condition column and connected to the main table as a foreign key. The schema.sql file has code for creating an inner join to query the database and return a joined table with condition description. Example:
+<img width="577" alt="JOIN" src="https://user-images.githubusercontent.com/74624855/142783187-1dbfd0f0-9a52-4e3a-8e1e-0237540b4377.png">
+<img width="231" alt="Joined table" src="https://user-images.githubusercontent.com/74624855/142783219-d8035b22-2745-4858-bb66-2be94eabd827.png">
+
+
 Database is hosted in pgAdmin; screenshot of data loaded to house_data_clean table (via SQLAlchemy):
 <img width="900" alt="DatabaseTable" src="https://user-images.githubusercontent.com/74624855/142777068-819b3876-f0e9-4f99-974d-f890156577e7.png">
 
@@ -70,6 +104,7 @@ Database is hosted in pgAdmin; screenshot of data loaded to house_data_clean tab
 <img width="800" alt="Connection_String" src="https://user-images.githubusercontent.com/74624855/142733428-b687af55-4e79-413f-893f-1ebb7bdbf3ce.png">
 **Connect cleaned house data to SQL:**
 <img width="800" alt="Connection_to_SQL" src="https://user-images.githubusercontent.com/74624855/142733465-7452977a-f4d9-473c-9d1e-397ee2dd1e79.png">
+
 
 
 ### **Tableau Dashboard**
