@@ -75,19 +75,19 @@ Standard Scaler-For scaling and normalizing numerical data
 For the preliminary features, all available features were used that might affect the model including the date, number of bedrooms, bathrooms, floors, etc. An additional feature was added to include the month and the year to see if this would improve the model. The id column was dropped as it affects the model accuracy since it shows a high predictive value while trying to predict the price.
 
 Data was split into training and tests sets as follows:
-**Training:** The training data consists of 21436 examples of houses with 21 features describing different aspects of the house. The training data is what is used to “teach” the models.
-**Testing:** The test data set consists of 21436 examples with the same number of features as the training data. The test data set excludes the **sale price** because this is the dependent value (what we are trying to predict).
+- **Training:** The training data consists of 21436 examples of houses with 21 features describing different aspects of the house. The training data is what is used to “teach”   the models.
+- **Testing:** The test data set consists of 21436 examples with the same number of features as the training data. The test data set excludes the **sale price** because this is the dependent value (what we are trying to predict).
 
 The Supervised Machine Learning model was chosen because the target outcome is already known (house price).Three different models were run and compared against each other for the accuracy outcome: Linear Regression, Decision Tree, and Random Forest.
 
-**Linear Regression** returned an accuracy score of 0.68.
-**Decision Tree** returned accuracy score of 0.73.
-**Random Forest** returned accuracy score of 0.86.
+1. **Linear Regression** returned an accuracy score of 0.68.
+2. **Decision Tree** returned accuracy score of 0.73.
+3. **Random Forest** returned accuracy score of 0.86.
 
 One of the limitations  encountered with Random Forest is getting a score of 0.53 when using only the following parameters (max_dept & Random state); however, after adding the n_estimator parameter the model score significantly increased to 0.86. With n_estimators of 100 and a cv=2, the runtime for the model was 32 minutes.
 
 
-### **Database ERD**
+## **Database ERD**
 
 * House Database Flowchart created with QuickDBD: Raw Data Table:
 <img width="800" alt="ERD_multi_table" src="https://user-images.githubusercontent.com/74624855/142777012-a84373ff-3409-422a-b428-2c4eee77b9ef.png">
@@ -107,7 +107,7 @@ Database is hosted in pgAdmin; screenshot of data loaded to house_data_clean tab
 
 
 
-### **Tableau Dashboard**
+## **Tableau Dashboard**
 <img width="1000" alt="tableau_dashboard" src="https://user-images.githubusercontent.com/74624855/142777860-e0705a04-1a13-4583-99ba-106a286452fb.png">
 
 #### **Market Share by Home Size**
