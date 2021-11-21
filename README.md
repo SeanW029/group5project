@@ -57,7 +57,8 @@ There was a mutual interest within the group to work with a model that could pre
   - Location and price
 
 ## **Machine Learning**
-**Description of data preprocessing:**
+
+#### **Description of data preprocessing:**
 In this project, we examined the quality of the raw data, the following steps has been achieved prior to feeding the data into the model:
 ·       overview of the dataset
 ·       Handling Null Values
@@ -70,7 +71,6 @@ Scikit Learn_ For machine learning
 NumPy_ For linear algebra and mathematics
 Seaborn_ For data visualization
 Standard Scaler-For scaling and normalizing numerical data
-
 
 For the preliminary features, all available features were used that might affect the model including the date, number of bedrooms, bathrooms, floors, etc. An additional feature was added to include the month and the year to see if this would improve the model. The id column was dropped as it affects the model accuracy since it shows a high predictive value while trying to predict the price.
 
@@ -102,7 +102,8 @@ Database is hosted in pgAdmin; screenshot of data loaded to house_data_clean tab
 
 #### **Connection String to RDS:**
 <img width="800" alt="Connection_String" src="https://user-images.githubusercontent.com/74624855/142733428-b687af55-4e79-413f-893f-1ebb7bdbf3ce.png">
-**Connect cleaned house data to SQL:**
+
+#### **Connect cleaned house data to SQL:**
 <img width="800" alt="Connection_to_SQL" src="https://user-images.githubusercontent.com/74624855/142733465-7452977a-f4d9-473c-9d1e-397ee2dd1e79.png">
 
 
