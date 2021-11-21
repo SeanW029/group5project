@@ -87,17 +87,6 @@ Displays the sales ranking map based on the zip code of different areas in King 
 
 Python, Pandas, Google Colab, PostgreSQL, Tableau, Supervised Machine Learning, SQLAlchemy
 
-### Github repository name: group5project
-
-* Group5project_Asmaa
-
-* Group5project_cAdora
-
-* Group5project_Leo
-
-* Group5project_Saber
- 
-* Group5project_Xiao
 
  ### Roles
  **square:** GitHub Repository
