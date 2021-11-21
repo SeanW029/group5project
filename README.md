@@ -36,12 +36,12 @@ There was a mutual interest within the group to work with a model that could pre
 ### Database ERD
 
 * House Database Flowchart created with QuickDBD: Raw Data Table:
-<img width="800" alt="db_ERD" src="https://user-images.githubusercontent.com/74624855/142735724-a424bf89-dc66-4eb1-8d5a-b0c93c3d71e2.png">
+<img width="800" alt="ERD_multi_table" src="https://user-images.githubusercontent.com/74624855/142777012-a84373ff-3409-422a-b428-2c4eee77b9ef.png">
 
 
+Database will be hosted in pgAdmin; screenshot of data loaded to house_data_clean table (via SQLAlchemy)
+<img width="900" alt="DatabaseTable" src="https://user-images.githubusercontent.com/74624855/142777068-819b3876-f0e9-4f99-974d-f890156577e7.png">
 
-Database will be hosted in pgAdmin; screenshot of data loaded to house_data_raw table (from schema.sql):
-<img width="869" alt="DatabaseTable" src="https://user-images.githubusercontent.com/74624855/140669906-1cd5b595-d605-4d84-8777-f1a241526889.png">
 
 #### **Connection String to RDS:**
 <img width="800" alt="Connection_String" src="https://user-images.githubusercontent.com/74624855/142733428-b687af55-4e79-413f-893f-1ebb7bdbf3ce.png">
@@ -66,9 +66,9 @@ Connect cleaned house data to SQL:
 
 
 
-### Software:
+### Software/Tools:
 
-Python, Pandas, Jupyter Notebook, PostgreSQL, Tableau and Supervised Machine Learning.
+Python, Pandas, Jupyter Notebook, PostgreSQL, Tableau, Supervised Machine Learning, SQLAlchemy
 
 ### Github repository name: group5project
 
