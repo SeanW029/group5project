@@ -74,9 +74,8 @@ Database is hosted in pgAdmin; screenshot of data loaded to house_data_clean tab
 <img width="1000" alt="tableau_dashboard" src="https://user-images.githubusercontent.com/74624855/142777860-e0705a04-1a13-4583-99ba-106a286452fb.png">
 
 #### **Market Share by Home Size**
-Displays market share of the properties between May 2014 and May 2015 by home sizes, which have been divided into groups as follows:
+Displays market share of the properties between May 2014 and May 2015 by home sizes, which have been divided into groups based on size in square feet. The medium-sized houses were most popular with 42.18%of the market share, and the small and large houses taking a combined market share of 49.97%.
 <img width="300" alt="House Size" src="https://user-images.githubusercontent.com/74624855/142778176-ba11ac6f-dfe6-4ea3-8e16-0bf04c05f416.png">
-The medium-sized houses were most popular with 42.18%of the market share, and the small and large houses taking a combined market share of 49.97%.
 
 #### **Sales by Quarter**
 Displays the total sales volume by Quarter.The 3rd quarter in 2014 has recorded the highest sales volume, hitting $3.16 billion, and then dropping to $2.50 billion in the 4th quarter. This could indicate that this is the time of year where the house prices are most competitive. Further, a Quarter on Quarter comparison of the 2nd quarter between 2014 and 2015 shows a 25% decrease in sales volume, which is considered significant. 
