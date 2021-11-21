@@ -39,21 +39,6 @@ There was a mutual interest within the group to work with a model that could pre
 
 **Publication:** House Prices - Advanced Regression Techniques | Kaggle  
  
-### Database ERD
-
-* House Database Flowchart created with QuickDBD: Raw Data Table:
-<img width="800" alt="ERD_multi_table" src="https://user-images.githubusercontent.com/74624855/142777012-a84373ff-3409-422a-b428-2c4eee77b9ef.png">
-
-
-Database will be hosted in pgAdmin; screenshot of data loaded to house_data_clean table (via SQLAlchemy)
-<img width="900" alt="DatabaseTable" src="https://user-images.githubusercontent.com/74624855/142777068-819b3876-f0e9-4f99-974d-f890156577e7.png">
-
-
-#### **Connection String to RDS:**
-<img width="800" alt="Connection_String" src="https://user-images.githubusercontent.com/74624855/142733428-b687af55-4e79-413f-893f-1ebb7bdbf3ce.png">
-Connect cleaned house data to SQL:
-<img width="800" alt="Connection_to_SQL" src="https://user-images.githubusercontent.com/74624855/142733465-7452977a-f4d9-473c-9d1e-397ee2dd1e79.png">
-
 
 ### Questions that will be answered with the data:
 * Predict housing market price 
@@ -69,6 +54,21 @@ Connect cleaned house data to SQL:
   - Year the property was built and price
 
   - Location and price
+
+
+### Database ERD
+
+* House Database Flowchart created with QuickDBD: Raw Data Table:
+<img width="800" alt="ERD_multi_table" src="https://user-images.githubusercontent.com/74624855/142777012-a84373ff-3409-422a-b428-2c4eee77b9ef.png">
+
+
+Database will be hosted in pgAdmin; screenshot of data loaded to house_data_clean table (via SQLAlchemy)
+<img width="900" alt="DatabaseTable" src="https://user-images.githubusercontent.com/74624855/142777068-819b3876-f0e9-4f99-974d-f890156577e7.png">
+
+#### **Connection String to RDS:**
+<img width="800" alt="Connection_String" src="https://user-images.githubusercontent.com/74624855/142733428-b687af55-4e79-413f-893f-1ebb7bdbf3ce.png">
+Connect cleaned house data to SQL:
+<img width="800" alt="Connection_to_SQL" src="https://user-images.githubusercontent.com/74624855/142733465-7452977a-f4d9-473c-9d1e-397ee2dd1e79.png">
 
 
 
