@@ -61,8 +61,8 @@ There was a mutual interest within the group to work with a model that could pre
 * House Database Flowchart created with QuickDBD: Raw Data Table:
 <img width="800" alt="ERD_multi_table" src="https://user-images.githubusercontent.com/74624855/142777012-a84373ff-3409-422a-b428-2c4eee77b9ef.png">
 
-
-Database will be hosted in pgAdmin; screenshot of data loaded to house_data_clean table (via SQLAlchemy)
+The dataset for this project is simple; it was not necessary to design the database with multiple tables. A table "condition" was created to link the descriptive values for the condition column and connected to the main table as a foreign key.
+Database is hosted in pgAdmin; screenshot of data loaded to house_data_clean table (via SQLAlchemy):
 <img width="900" alt="DatabaseTable" src="https://user-images.githubusercontent.com/74624855/142777068-819b3876-f0e9-4f99-974d-f890156577e7.png">
 
 #### **Connection String to RDS:**
