@@ -118,7 +118,7 @@ Displays market share of the properties between May 2014 and May 2015 by home si
 <img width="300" alt="House Size" src="https://user-images.githubusercontent.com/74624855/142778176-ba11ac6f-dfe6-4ea3-8e16-0bf04c05f416.png">
 
 #### **Sales by Quarter**
-Displays the total sales volume by Quarter.The 3rd quarter in 2014 has recorded the highest sales volume, hitting $3.16 billion, and then dropping to $2.50 billion in the 4th quarter. This could indicate that this is the time of year where the house prices are most competitive. Further, a Quarter on Quarter comparison of the 2nd quarter between 2014 and 2015 shows a 25% decrease in sales volume, which is considered significant. 
+Displays the total sales volume by Quarter.The 3rd quarter in 2014 has recorded the highest sales volume, hitting $3.16 billion, and then dropping to $2.50 billion in the 4th quarter. This could indicate that this is the time of year where the house prices are most competitive. Further, a Quarter on Quarter comparison of the 2nd quarter between 2014 and 2015 shows a 25% decrease in sales volume, which should be considered significant. 
 
 #### **Sales Ranking Map**
 Displays the sales ranking map based on the zip code of different areas in King County. The number on each area displays the ranking in terms of the number of houses sold between 2014 and 2015. Shoreline to the north of Seattle, has bagged 3 spots – 1st, 3rd and 5th out of the top 5 ranking and averaging 574 houses sold, and Hobart is the runner-up with 587 houses sold. No. 4 is the East side of Kirkland, closing 571 deals. On the other side of the coin, Carnation and Maury Island shows the least number of housed sold, averaging slightly over a 100 in the same period. 
