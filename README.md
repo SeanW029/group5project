@@ -109,10 +109,11 @@ Database is hosted in pgAdmin; screenshot of data loaded to house_data_clean tab
 
 
 ## **Tableau Dashboard**
+Interact with the data by choosing different parameters for house size (see table below) and Rank of Units Sold (1st-70th place).
 <img width="1000" alt="tableau_dashboard" src="https://user-images.githubusercontent.com/74624855/142777860-e0705a04-1a13-4583-99ba-106a286452fb.png">
 
 #### **Market Share by Home Size**
-Displays market share of the properties between May 2014 and May 2015 by home sizes, which have been divided into groups based on size in square feet. The medium-sized houses were most popular with 42.18%of the market share, and the small and large houses taking a combined market share of 49.97%.
+Displays market share of the properties between May 2014 and May 2015 by home sizes, which have been divided into groups based on size in square feet. The medium-sized houses were most popular with 42.18%of the market share, and the small and large houses taking a combined market share of 49.97%. 
 
 <img width="300" alt="House Size" src="https://user-images.githubusercontent.com/74624855/142778176-ba11ac6f-dfe6-4ea3-8e16-0bf04c05f416.png">
 
