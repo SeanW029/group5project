@@ -77,6 +77,7 @@ For the preliminary features, all available features were used that might affect
 Data was split into training and tests sets as follows:
 - **Training:** The training data consists of 21436 examples of houses with 21 features describing different aspects of the house. The training data is what is used to “teach”   the models.
 - **Testing:** The test data set consists of 21436 examples with the same number of features as the training data. The test data set excludes the **sale price** because this is the dependent value (what we are trying to predict).
+- Our training and testing setup is using a 70/30 train-test split ratio.
 
 The Supervised Machine Learning model was chosen because the target outcome is already known (house price).Three different models were run and compared against each other for the accuracy outcome: Linear Regression, Decision Tree, and Random Forest.
 
