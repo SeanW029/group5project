@@ -60,10 +60,10 @@ There was a mutual interest within the group to work with a model that could pre
 
 #### **Description of data preprocessing:**
 In this project, we examined the quality of the raw data, the following steps has been achieved prior to feeding the data into the model:
-·       overview of the dataset
-·       Handling Null Values
-·       Handling missing values & duplicate rows
-·       Standardization of the numerical data while handling Categorical Variables
+* Overview of the dataset
+* Handling Null Values
+* Handling missing values & duplicate rows
+* Standardization of the numerical data while handling Categorical Variables
 
 Importing the necessary libraries, including the following:
 Pandas_ For handling structured data
