@@ -65,7 +65,7 @@ In this project, we examined the quality of the raw data, the following steps ha
 * Handling missing values & duplicate rows
 * Standardization of the numerical data while handling Categorical Variables
 
-Importing the necessary libraries, including the following: Pandas_ For handling structured data, Scikit Learn_ For machine learning, NumPy_ For linear algebra and mathematics, Seaborn_ For data visualization,  Standard Scaler-For scaling and normalizing numerical data
+Importing the necessary libraries, including the following: Pandas_ For handling structured data, Scikit Learn_ For machine learning, NumPy_ For linear algebra and mathematics, Seaborn_ For data visualization,  Standard Scaler-For scaling and normalizing numerical data.
 
 For the preliminary features, all available features were used that might affect the model including the date, number of bedrooms, bathrooms, floors, etc. An additional feature was added to include the month and the year to see if this would improve the model. The id column was dropped as it affects the model accuracy since it shows a high predictive value while trying to predict the price.
 
