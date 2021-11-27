@@ -80,7 +80,8 @@ The Supervised Machine Learning model was chosen because the target outcome is a
 2. **Decision Tree** returned accuracy score of 0.73.
 3. **Random Forest** returned accuracy score of 0.87.
 
-One of the limitations encountered with Random Forest is getting a score of 0.53 when using only the following parameters (max_dept & Random state); however, after adding the n_estimator parameter the model score significantly increased to 0.86. With n_estimators of 100 and a cv=2, the runtime for the model was 32 minutes.
+One of the limitations encountered with Random Forest is getting a score of 0.53 when using only the following parameters max_dept =2 & Random state =79; however, after adding the hyper parameters such as n_estimators of 100, criterion as mse, max_depth as 100 then the model score significantly increased to 0.86. with the runtime for the model was 32 minutes. How ever we decreased the runtime from 32 to 22 minutes by implementing n_jobs = -1
+
 
 
 ## **Database ERD**
