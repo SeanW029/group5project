@@ -40,7 +40,7 @@ There was a mutual interest within the group to work with a Machine Learning mod
 **Publication:** House Prices - Advanced Regression Techniques | Kaggle  
  
 
-### Questions that will be answered with the data:
+## Questions that will be answered with the data:
 * Predict housing market price 
 
 * Differences of frequencies in sale by season
