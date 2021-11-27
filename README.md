@@ -21,8 +21,7 @@ This project’s objective is to analyze the housing market sector in King Count
 https://docs.google.com/presentation/d/1FSh0O_s-OfNs4f0mQAv_XbYGDBrPot1RKguuH9DE7T0/edit#slide=id.g10352e16c5d_0_65
 
 ### **Tableau Dashboard Link:**
-https://public.tableau.com/app/profile/leonardo.aleixo/viz/P5_16365969348480/Dashboard4?publish=yes
-
+https://public.tableau.com/app/profile/leonardo.aleixo/viz/Ptest/Story1
 
 ## Why Supervised Machine Learning?
  
