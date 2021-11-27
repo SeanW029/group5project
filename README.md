@@ -1,16 +1,16 @@
 # Real Estate: Predicting House Prices
 
-### Members (roles)
+### Members
  
-**Asmaa Ahmed** (triangle)
+**Asmaa Ahmed** 
 
-**Chayda Adora** (circle)
+**Chayda Adora** 
 
-**Leonardo Aleixo** (x)
+**Leonardo Aleixo** 
 
-**Saber Ahsan** (triangle)
+**Saber Chowdhury** 
 
-**Xiao Wang** (square)
+**Xiao Wang** 
  
 
 ## Overview of Project
@@ -25,7 +25,7 @@ https://public.tableau.com/app/profile/leonardo.aleixo/viz/Ptest/Story1
 
 ## Why Supervised Machine Learning?
  
-There was a mutual interest within the group to work with a model that could predict results based on previous data. The housing market sector offers a variety of data where advanced regression techniques can be applied.
+There was a mutual interest within the group to work with a Machine Learning model that could predict results based on previous data. The housing market sector offers a variety of data where advanced regression techniques can be applied to predict price.
 
 #### **OLS Regression Model:**
 <img width="650" alt="OLS_Regression" src="https://user-images.githubusercontent.com/74624855/142733397-d732cada-7610-41e9-a708-692102ae00c8.png">
@@ -79,7 +79,7 @@ The Supervised Machine Learning model was chosen because the target outcome is a
 2. **Decision Tree** returned accuracy score of 0.73.
 3. **Random Forest** returned accuracy score of 0.87.
 
-One of the limitations encountered with Random Forest is getting a score of 0.53 when using only the following parameters max_dept =2 & Random state =79; however, after adding the hyper parameters such as n_estimators of 100, criterion as mse, max_depth as 100 then the model score significantly increased to 0.86. with the runtime for the model was 32 minutes. How ever we decreased the runtime from 32 to 22 minutes by implementing n_jobs = -1
+One of the limitations encountered with Random Forest is getting a score of 0.53 when using only the following parameters: max_dept =2 & Random state =79; however, after adding the hyper parameters such as n_estimators of 100, criterion as mse, max_depth as 100 then the model score significantly increased to 0.86. The runtime for the model was originally 32 minutes, but was decreased to 22 minutes by changing the n_jobs parameter from the default of 1 to -1, which means all processors run parallel in the backend.
 
 
 
@@ -123,18 +123,3 @@ Displays the sales ranking map based on the zip code of different areas in King 
 
 Python, Pandas, Google Colab, PostgreSQL, Tableau, Supervised Machine Learning
 
-
- ### Roles
- **square:** GitHub Repository
- 
- **triangle:** Machine Learning Model
- 
- **circle:** Database
- 
- **x:** Technologies and ETL
-
- ### Description of the communication protocols:
- 
-* Slack Project Group Channel
-* Group meetings on Saturdays from 10-12 during office hours
-* Group zoom meetings on a weekly basis outside of class time (times tbd)
