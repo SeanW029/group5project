@@ -121,5 +121,5 @@ Displays the sales ranking map based on the zip code of different areas in King 
 
 ### Software/Tools:
 
-Python, Pandas, Google Colab, PostgreSQL, Tableau, Supervised Machine Learning
+Python, Pandas, Google Colab, Jupyter Notebook, PostgreSQL, Tableau, Supervised Machine Learning
 
