@@ -28,7 +28,8 @@ https://public.tableau.com/app/profile/leonardo.aleixo/viz/Ptest/Story1
 There was a mutual interest within the group to work with a Machine Learning model that could predict results based on previous data. The housing market sector offers a variety of data where advanced regression techniques can be applied to predict price.
 
 #### **OLS Regression Model:**
-<img width="650" alt="OLS_Regression" src="https://user-images.githubusercontent.com/74624855/142733397-d732cada-7610-41e9-a708-692102ae00c8.png">
+<img width="800" alt="OLS_Regression" src="https://user-images.githubusercontent.com/74624855/143781869-0a2166de-e6be-453e-93bc-8554f855edfa.png">
+
 
 
 ### Data Source
