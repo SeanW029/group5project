@@ -18,7 +18,7 @@
 This project’s objective is to analyze the housing market sector in King County, USA between May 2014 and May 2015 and create a machine learning model which is able to predict prices and visualizations to provide insights.
  
 ### **Project Presentation Link (Google Slides):**
-https://docs.google.com/presentation/d/1FSh0O_s-OfNs4f0mQAv_XbYGDBrPot1RKguuH9DE7T0/edit#slide=id.p
+https://docs.google.com/presentation/d/1FSh0O_s-OfNs4f0mQAv_XbYGDBrPot1RKguuH9DE7T0/edit?usp=sharing
 
 ### **Tableau Dashboard Link:**
 https://public.tableau.com/app/profile/leonardo.aleixo/viz/Ptest/Story1
