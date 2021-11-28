@@ -80,7 +80,7 @@ The Supervised Machine Learning model was chosen because the target outcome is a
 2. **Decision Tree** returned accuracy score of 0.73.
 3. **Random Forest** returned accuracy score of 0.86.
 
-<img width="300" alt="regressorforest_score" src="https://user-images.githubusercontent.com/74624855/143781912-68bef93b-57bd-4da5-92e1-b91805c6f2ea.png">
+<img width="450" alt="regressorforest_score" src="https://user-images.githubusercontent.com/74624855/143781912-68bef93b-57bd-4da5-92e1-b91805c6f2ea.png">
 <img width="300" alt="regressorforest_head" src="https://user-images.githubusercontent.com/74624855/143781916-375ca4da-a77d-4f6b-86b5-d75babc3d090.png">
 
 
