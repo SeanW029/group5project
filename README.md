@@ -124,6 +124,9 @@ Displays the total sales volume by Quarter.The 3rd quarter in 2014 has recorded 
 #### **Sales Ranking Map**
 Displays the sales ranking map based on the zip code of different areas in King County. The number on each area displays the ranking in terms of the number of houses sold between 2014 and 2015. Shoreline to the north of Seattle, has bagged 3 spots – 1st, 3rd and 5th out of the top 5 ranking and averaging 574 houses sold, and Hobart is the runner-up with 587 houses sold. No. 4 is the East side of Kirkland, closing 571 deals. On the other side of the coin, Carnation and Maury Island shows the least number of housed sold, averaging slightly over a 100 in the same period. 
 
+### **Other visualizations in Tableau Story:**
+House sales by condition, closing date, grading system, location, and comparison to ML models.
+
 ### Software/Tools:
 
 Python, Pandas, Google Colab, Jupyter Notebook, PostgreSQL, Tableau, Supervised Machine Learning
