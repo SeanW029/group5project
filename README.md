@@ -3,13 +3,9 @@
 ### Members
  
 **Asmaa Ahmed** 
-
 **Chayda Adora** 
-
 **Leonardo Aleixo** 
-
 **Saber Chowdhury** 
-
 **Xiao Wang** 
  
 
