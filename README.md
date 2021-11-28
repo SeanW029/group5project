@@ -18,7 +18,7 @@
 This project’s objective is to analyze the housing market sector in King County, USA between May 2014 and May 2015 and create a machine learning model which is able to predict prices and visualizations to provide insights.
  
 ### **Project Presentation Link (Google Slides):**
-https://docs.google.com/presentation/d/1FSh0O_s-OfNs4f0mQAv_XbYGDBrPot1RKguuH9DE7T0/edit#slide=id.g10352e16c5d_0_65
+https://docs.google.com/presentation/d/1FSh0O_s-OfNs4f0mQAv_XbYGDBrPot1RKguuH9DE7T0/edit#slide=id.p
 
 ### **Tableau Dashboard Link:**
 https://public.tableau.com/app/profile/leonardo.aleixo/viz/Ptest/Story1
@@ -28,7 +28,8 @@ https://public.tableau.com/app/profile/leonardo.aleixo/viz/Ptest/Story1
 There was a mutual interest within the group to work with a Machine Learning model that could predict results based on previous data. The housing market sector offers a variety of data where advanced regression techniques can be applied to predict price.
 
 #### **OLS Regression Model:**
-<img width="650" alt="OLS_Regression" src="https://user-images.githubusercontent.com/74624855/142733397-d732cada-7610-41e9-a708-692102ae00c8.png">
+<img width="800" alt="OLS_Regression" src="https://user-images.githubusercontent.com/74624855/143781869-0a2166de-e6be-453e-93bc-8554f855edfa.png">
+
 
 
 ### Data Source
@@ -79,6 +80,10 @@ The Supervised Machine Learning model was chosen because the target outcome is a
 2. **Decision Tree** returned accuracy score of 0.73.
 3. **Random Forest** returned accuracy score of 0.86.
 
+<img width="450" alt="regressorforest_score" src="https://user-images.githubusercontent.com/74624855/143781912-68bef93b-57bd-4da5-92e1-b91805c6f2ea.png">
+<img width="300" alt="regressorforest_head" src="https://user-images.githubusercontent.com/74624855/143781916-375ca4da-a77d-4f6b-86b5-d75babc3d090.png">
+
+
 One of the limitations encountered with Random Forest is getting a score of 0.53 when using only the following parameters: max_dept =2 & Random state =79; however, after adding the hyper parameters such as n_estimators of 100, criterion as mse, max_depth as 100 then the model score significantly increased to 0.86. The runtime for the model was originally 32 minutes, but was decreased to 22 minutes by changing the n_jobs parameter from the default of 1 to -1, which means all processors run parallel in the backend.
 
 
@@ -118,6 +123,9 @@ Displays the total sales volume by Quarter.The 3rd quarter in 2014 has recorded 
 
 #### **Sales Ranking Map**
 Displays the sales ranking map based on the zip code of different areas in King County. The number on each area displays the ranking in terms of the number of houses sold between 2014 and 2015. Shoreline to the north of Seattle, has bagged 3 spots – 1st, 3rd and 5th out of the top 5 ranking and averaging 574 houses sold, and Hobart is the runner-up with 587 houses sold. No. 4 is the East side of Kirkland, closing 571 deals. On the other side of the coin, Carnation and Maury Island shows the least number of housed sold, averaging slightly over a 100 in the same period. 
+
+### **Other visualizations in Tableau Story:**
+House sales by condition, closing date, grading system, location, and comparison to ML models.
 
 ### Software/Tools:
 
