@@ -1,6 +1,9 @@
 # Config file for database
 config.py
 
+# Requirements.txt
+requirements.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
