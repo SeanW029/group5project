@@ -91,6 +91,7 @@ Dataset has 21 columns, including the id for each house, and over 21K rows. Ther
 
 Additional feature created to show number of bedrooms by the home_size.
 Correlation heatmap indicates that home_size and above_size had high correlation, and were plotted. 
+
 <img width="750" alt="correlation_heatmap" src="https://user-images.githubusercontent.com/74624855/144082899-ba4d9b0c-e63a-46a7-921b-51900d28dd9c.png">
 
 Cleaned data is exported to csv and loaded into a PostgreSQL database.
