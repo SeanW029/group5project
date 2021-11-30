@@ -88,7 +88,7 @@ One of the limitations encountered with Random Forest is getting a score of 0.53
 
 ### **Cleaning the data:**
 Dataset has 21 columns, including the id for each house, and over 21K rows. There were no null values, but we did find duplicate rows by house id, which would indicate either the house was sold twice in this year of this was a duplicate entry. Found some duplicates and confirmed all feature details were the same including the closing date so these are duplicate entries. We decided to drop these rows as they only totalled 177. Also, an additional feature was created to show number of bedrooms by the home_size.
-Correlation heatmap indicates that home_size and above_size had high correlation, and were plotted. 
+Correlation heatmap indicates that home_size and price had high correlation, as well as a high correlation between home_size and above_size. 
 
 <img width="750" alt="correlation_heatmap" src="https://user-images.githubusercontent.com/74624855/144082899-ba4d9b0c-e63a-46a7-921b-51900d28dd9c.png">
 
