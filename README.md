@@ -15,7 +15,7 @@
 
 ## Overview of Project
  
-This project’s objective is to analyze the housing market sector in King County, USA between May 2014 and May 2015 and create a machine learning model which is able to predict prices and visualizations to provide insights.
+This project’s objective is to analyze the housing market sector in King County, USA between May 2014 and May 2015 and create a machine learning model which is able to predict prices and visualizations to provide insights on house sales.
  
 ### **Project Presentation Link (Google Slides):**
 https://docs.google.com/presentation/d/1FSh0O_s-OfNs4f0mQAv_XbYGDBrPot1RKguuH9DE7T0/edit?usp=sharing
@@ -25,7 +25,7 @@ https://public.tableau.com/app/profile/leonardo.aleixo/viz/Ptest/Story1
 
 ## Why Supervised Machine Learning?
  
-There was a mutual interest within the group to work with a Machine Learning model that could predict results based on previous data. The housing market sector offers a variety of data where advanced regression techniques can be applied to predict price.
+The housing market sector offers a variety of data where advanced regression techniques can be applied to predict price. As the data is known and the target outcome (price) is a continuous variable, Supervised Machine Learning is the appropriate approach.
 
 #### **OLS Regression Model:**
 <img width="800" alt="OLS_Regression" src="https://user-images.githubusercontent.com/74624855/143781869-0a2166de-e6be-453e-93bc-8554f855edfa.png">
@@ -77,7 +77,7 @@ Data was split into training and tests sets as follows:
 The Supervised Machine Learning model was chosen because the target outcome is already known (house price).Three different models were run and compared against each other for the accuracy outcome: Linear Regression, Decision Tree, and Random Forest.
 
 1. **Linear Regression** returned an accuracy score of 0.68.
-2. **Decision Tree** returned accuracy score of 0.73.
+2. **Decision Tree** returned accuracy score of 0.75.
 3. **Random Forest** returned accuracy score of 0.86.
 
 <img width="450" alt="regressorforest_score" src="https://user-images.githubusercontent.com/74624855/143781912-68bef93b-57bd-4da5-92e1-b91805c6f2ea.png">
